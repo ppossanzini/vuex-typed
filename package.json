@@ -1,0 +1,37 @@
+{
+  "name": "vuex-typed-store",
+  "version": "1.0.0",
+  "description": "A vuex extension to make your vues store fully typed",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "Paolo Possanzini <ppossanzini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vuex": "^3.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ppossanzini/vuex-typed/issues"
+  },
+  "homepage": "https://github.com/ppossanzini/vuex-typed",
+  "keywords": [
+    "vue",
+    "vuex",
+    "typed",
+    "data",
+    "store"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppossanzini/vuex-typed.git"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "vue": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "~2"
+  }
+}
